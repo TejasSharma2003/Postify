@@ -1,0 +1,90 @@
+.post-note {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+
+  @media (max-width:51em) {
+    margin-top:2rem;
+    
+  }
+
+  &__user {
+    display: flex;
+    align-self: center;
+    align-self: baseline;
+  }
+
+  &__avatar-ph
+  {
+    min-width: 50px !important;
+    height:50px !important;
+    margin-bottom: 0 !important;
+  }
+
+  &__user-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__post-input {
+    position: relative;
+    display: inline-block;
+    flex: 1;
+    font-size: 1.4rem;
+    font-family: var(--font-family-secondary);
+    margin-left: 1rem;
+    max-width: 100%p;
+    outline: none;
+    border: none;
+
+    &--fade {
+      color: rgba(#000, 0.5);
+    }
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  &__icon-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+  }
+
+  &__holder {
+    position: absolute;
+    left: 0;
+  }
+
+  &__btn {
+    background-color: var(--secondary-color) !important;
+    color: var(--color-white) !important;
+    align-self: flex-end;
+    // margin-top: 2rem;
+  }
+
+  &__preview-box {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  &__preview-img {
+    width: 100%;
+    max-height: 30rem;
+    object-fit: cover;
+  }
+}

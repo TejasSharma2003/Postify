@@ -1,0 +1,27 @@
+.btn {
+  color: var(--color-white);
+  font-size: 1.5rem;
+  padding: 0.7rem 3rem;
+
+  &:visited,
+  &:link {
+    text-decoration: none;
+    border-radius: var(--rounded);
+  }
+
+  &--fill {
+    background-color: var(--primary-color);
+  }
+
+  &--ghost {
+    border: 1px solid var(--primary-color);
+    color: #000;
+    transition:all .2s;
+    &:hover
+    {
+      color:#fff;
+      background-color: var(--primary-color);
+      
+    }
+  }
+}

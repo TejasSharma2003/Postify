@@ -1,0 +1,19 @@
+.posts {
+  margin-top: 5rem;
+  transition: opacity 0.3s;
+  &--fetch-fade {
+    opacity: 0.8;
+  }
+
+  &__no-post-msg {
+    left: 50%;
+    top: 50%;
+    font-size: 2.5rem;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__message {
+  }
+}

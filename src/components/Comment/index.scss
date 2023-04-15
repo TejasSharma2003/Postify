@@ -1,0 +1,19 @@
+.comment {
+  &__write-box {
+  }
+
+  &__write {
+    font-size: 1.2rem;
+    width: 100%;
+    font-family: var(--font-family-primary);
+    border:solid 1px rgba(#000,.2);
+    padding: 0.5rem;
+    resize: none;
+    border-radius: 5px;
+
+    &:focus
+    {
+      outline:none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.home-grid {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: minmax(min-content, 27rem) minmax(min-content, 50rem) 1fr;
+  column-gap: 5rem;
+
+  @media (max-width: 51em) {
+    grid-template-columns: none;
+    max-width: 500px;
+    margin:auto;
+
+  }
+}

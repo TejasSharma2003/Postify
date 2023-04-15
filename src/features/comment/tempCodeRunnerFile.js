@@ -1,0 +1,1 @@
+   invalidatesTags: (result, error, arg) => [{ type: 'Post', id: arg.postId }]

@@ -1,0 +1,11 @@
+.container {
+
+  max-width:114rem; //114rem -> 1140px
+  margin: 0 auto;
+
+  &__auth {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
